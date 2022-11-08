@@ -212,14 +212,10 @@ img {
   background-position: center;
 }
 
-.container-hero-title {
+.hero-title {
   width: 696px;
   margin: 0 auto;
   align-items: center;
-    /* outline: 1px solid tomato; */
-}
-
-.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
