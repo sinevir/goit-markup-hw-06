@@ -353,24 +353,25 @@
             </li>
           </ul>
         </div>
-        <div class="email-list">
-          <h3 class="join-title">Підпишіться на розсилку</h3>
-          <label class="email-label" for="user_email"></label>
-          <div class="email-list-form">
-            <input
-            class="email-input"
-            type="email"
-            name="email"
-            id="user_email"
-            placeholder="E-mail"
-          />
-          <button class="sign-up">Підписатися
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
+        <form name="mailing-list" autocomplete="on">
+          <div class="email-list">
+            <h3 class="join-title">Підпишіться на розсилку</h3>
+            <div class="email-list-form">
+              <label class="email-label">
+                <input class="email-input"
+                  type="email"
+                  name="user_email"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button class="sign-up-button" type="submit">Підписатися
+                <svg class="sign-up-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </footer>
   </body>
