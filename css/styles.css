@@ -383,17 +383,6 @@ img {
   position: absolute;
 } */
 
-.checkbox-icon {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--title-text-color);
-  border-radius: 2px;
-  margin: 0 7px 0 12px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* .policy-checkbox:checked + .checkbox-icon {
   width: 16px;
   height: 15px;
@@ -409,6 +398,7 @@ img {
   align-items: center;
   margin-bottom: 30px;
 }
+
 .check-input {
   position: absolute;
   appearance: none;
@@ -422,6 +412,17 @@ img {
   height: 15px;
   border-radius: 2px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
+  margin: 0 7px 0 12px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-input:checked ~ .check-box {
@@ -746,7 +747,7 @@ img {
     display: inline-block;
     width: 206px;
     padding-top: 72px;
-    margin-left: 70px;
+    margin-left: 93px;
   }
 
   .join-title {
@@ -793,8 +794,9 @@ img {
     display: inline-block;
     width: 570px;
     padding-top: 72px;
-    margin-left: 70px;
+    margin-left: 93px;
   }
+  
   .email-list-form {
     display: flex;
   }
