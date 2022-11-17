@@ -407,6 +407,7 @@ img {
 .check {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .check-input {
   position: absolute;
